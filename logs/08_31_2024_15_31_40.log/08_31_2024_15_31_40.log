@@ -1,0 +1,56 @@
+[ 2024-08-31 15:31:46,853 ] 225 werkzeug - WARNING -  * Debugger is active!
+[ 2024-08-31 15:31:46,895 ] 225 werkzeug - INFO -  * Debugger PIN: 722-285-673
+[ 2024-08-31 15:32:07,429 ] 225 werkzeug - WARNING -  * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+[ 2024-08-31 15:32:07,437 ] 225 werkzeug - INFO -  * Running on http://192.168.0.136:8080/ (Press CTRL+C to quit)
+[ 2024-08-31 15:32:08,337 ] 225 werkzeug - INFO - 127.0.0.1 - - [31/Aug/2024 15:32:08] "GET / HTTP/1.1" 200 -
+[ 2024-08-31 15:32:08,479 ] 225 werkzeug - INFO - 127.0.0.1 - - [31/Aug/2024 15:32:08] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+[ 2024-08-31 15:32:19,916 ] 69 root - INFO - Entered initiate_data_ingestion method of Data_Ingestion class
+[ 2024-08-31 15:32:19,916 ] 39 root - INFO - Exporting data from mongodb
+[ 2024-08-31 15:32:19,924 ] 46 root - INFO - Saving exported data into feature store file path: artifacts\08_31_2024_15_31_43\data_ingestion
+[ 2024-08-31 15:34:53,058 ] 48 root - INFO - Shape of Phishing_Legitimate_full: (10000, 50)
+[ 2024-08-31 15:36:17,780 ] 48 root - INFO - Shape of phising_08012020_120000: (44220, 31)
+[ 2024-08-31 15:36:18,065 ] 74 root - INFO - Got the data from mongodb
+[ 2024-08-31 15:36:18,065 ] 76 root - INFO - Exited initiate_data_ingestion method of Data_Ingestion class
+[ 2024-08-31 15:36:18,065 ] 252 root - INFO - Entered initiate_data_validation method of Data_Validation class
+[ 2024-08-31 15:36:18,065 ] 255 root - INFO - Initiated data validation for the dataset
+[ 2024-08-31 15:36:18,590 ] 79 root - INFO - Entered initiate_data_transformation method of Data_Transformation class
+[ 2024-08-31 15:36:18,756 ] 108 root - INFO - Unwanted spaces removal Successful.Exited the remove_unwanted_spaces method of the Preprocessor class
+[ 2024-08-31 15:36:18,917 ] 41 root - INFO - Entered the save_object method of MainUtils class
+[ 2024-08-31 15:36:18,920 ] 47 root - INFO - Exited the save_object method of MainUtils class
+[ 2024-08-31 15:36:18,924 ] 167 root - INFO - Splitting training and testing input and target feature
+[ 2024-08-31 15:36:18,924 ] 169 root - INFO - Extracting model config file path
+[ 2024-08-31 15:36:18,924 ] 56 root - INFO - Entered the load_object method of MainUtils class
+[ 2024-08-31 15:36:18,933 ] 62 root - INFO - Exited the load_object method of MainUtils class
+[ 2024-08-31 15:36:18,933 ] 173 root - INFO - Extracting model config file path
+[ 2024-08-31 15:43:54,984 ] 69 root - INFO - Entered initiate_data_ingestion method of Data_Ingestion class
+[ 2024-08-31 15:43:54,989 ] 39 root - INFO - Exporting data from mongodb
+[ 2024-08-31 15:43:54,992 ] 46 root - INFO - Saving exported data into feature store file path: artifacts\08_31_2024_15_31_43\data_ingestion
+[ 2024-08-31 15:44:09,992 ] 48 root - INFO - Shape of Phishing_Legitimate_full: (10000, 50)
+[ 2024-08-31 15:44:47,777 ] 48 root - INFO - Shape of phising_08012020_120000: (44220, 31)
+[ 2024-08-31 15:44:48,911 ] 74 root - INFO - Got the data from mongodb
+[ 2024-08-31 15:44:48,912 ] 76 root - INFO - Exited initiate_data_ingestion method of Data_Ingestion class
+[ 2024-08-31 15:44:48,912 ] 252 root - INFO - Entered initiate_data_validation method of Data_Validation class
+[ 2024-08-31 15:44:48,912 ] 255 root - INFO - Initiated data validation for the dataset
+[ 2024-08-31 15:44:50,312 ] 79 root - INFO - Entered initiate_data_transformation method of Data_Transformation class
+[ 2024-08-31 15:44:50,694 ] 108 root - INFO - Unwanted spaces removal Successful.Exited the remove_unwanted_spaces method of the Preprocessor class
+[ 2024-08-31 15:44:51,012 ] 41 root - INFO - Entered the save_object method of MainUtils class
+[ 2024-08-31 15:44:51,012 ] 47 root - INFO - Exited the save_object method of MainUtils class
+[ 2024-08-31 15:44:51,012 ] 167 root - INFO - Splitting training and testing input and target feature
+[ 2024-08-31 15:44:51,012 ] 169 root - INFO - Extracting model config file path
+[ 2024-08-31 15:44:51,012 ] 56 root - INFO - Entered the load_object method of MainUtils class
+[ 2024-08-31 15:44:51,025 ] 62 root - INFO - Exited the load_object method of MainUtils class
+[ 2024-08-31 15:44:51,025 ] 173 root - INFO - Extracting model config file path
+[ 2024-08-31 15:57:41,282 ] 208 root - INFO - Best found model on both training and testing dataset
+[ 2024-08-31 15:57:41,292 ] 215 root - INFO - Saving model at path: artifacts\08_31_2024_15_31_43\model_trainer\trained_model\model.pkl
+[ 2024-08-31 15:57:41,296 ] 41 root - INFO - Entered the save_object method of MainUtils class
+[ 2024-08-31 15:57:41,378 ] 47 root - INFO - Exited the save_object method of MainUtils class
+[ 2024-08-31 15:57:48,780 ] 225 werkzeug - INFO - 127.0.0.1 - - [31/Aug/2024 15:57:48] "[35m[1mGET /train HTTP/1.1[0m" 500 -
+[ 2024-08-31 16:03:43,785 ] 208 root - INFO - Best found model on both training and testing dataset
+[ 2024-08-31 16:03:43,795 ] 215 root - INFO - Saving model at path: artifacts\08_31_2024_15_31_43\model_trainer\trained_model\model.pkl
+[ 2024-08-31 16:03:43,797 ] 41 root - INFO - Entered the save_object method of MainUtils class
+[ 2024-08-31 16:03:43,812 ] 47 root - INFO - Exited the save_object method of MainUtils class
+[ 2024-08-31 16:03:46,147 ] 225 werkzeug - INFO - 127.0.0.1 - - [31/Aug/2024 16:03:46] "[35m[1mGET /train HTTP/1.1[0m" 500 -
+[ 2024-08-31 16:26:27,048 ] 225 werkzeug - INFO - 127.0.0.1 - - [31/Aug/2024 16:26:27] "GET /predict HTTP/1.1" 200 -
+[ 2024-08-31 16:26:27,101 ] 225 werkzeug - INFO - 127.0.0.1 - - [31/Aug/2024 16:26:27] "[33mGET /static/css/style.css HTTP/1.1[0m" 404 -
+[ 2024-08-31 16:26:27,104 ] 225 werkzeug - INFO - 127.0.0.1 - - [31/Aug/2024 16:26:27] "[33mGET /script.js HTTP/1.1[0m" 404 -
